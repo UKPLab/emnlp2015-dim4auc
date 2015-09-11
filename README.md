@@ -8,7 +8,7 @@ For more information see also: https://www.ukp.tu-darmstadt.de/data/argumentatio
 
 ## Package structure
   * the folder experiment contains the classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
-  * the folder explore contains code used for the extraction of data-driven features from the German Tiger corpus. It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/).
+  * the folder explore contains code used for the extraction of data-driven features from the [German Tiger corpus](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html). It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/).
 
 
 ## Howto
