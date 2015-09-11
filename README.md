@@ -12,7 +12,7 @@ For more information see also: https://www.ukp.tu-darmstadt.de/data/argumentatio
 
 
 ## Howto
-  * to obtain the annotated dataset, please contact eckle-kohler@ukp.informatik.tu-darmstadt.de or the primary contact of the argumentation mining group at UKP, see https://www.ukp.tu-darmstadt.de/research/research-areas/argumentation-mining
+  * to obtain the annotated dataset, please contact eckle-kohler@ukp.informatik.tu-darmstadt.de or the primary contact of the argumentation mining group at [UKP](https://www.ukp.tu-darmstadt.de/ukp-home/), see https://www.ukp.tu-darmstadt.de/research/research-areas/argumentation-mining
   * you have to modify the paths to corpus data and results data according to your system and environment
   * Please note that the Maven project includes a dependency to the TreeTagger model. You should obtain the TreeTagger model and binaries to run the extraction pipelines.
   
