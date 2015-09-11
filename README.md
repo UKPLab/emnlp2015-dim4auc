@@ -4,9 +4,11 @@ This repository contains the code used to perform the classification experiments
 
 Judith Eckle-Kohler, Roland Kluge and Iryna Gurevych. On the Role of Discourse Markers for Discriminating Claims and Premises in Argumentative Discourse. In: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 2249-2255, September 2015.
 
+For more information see also: https://www.ukp.tu-darmstadt.de/data/argumentation-mining/argument-annotated-news-articles/
+
 ## Package structure
-  * the folder experiment contains the classification experiments which make use of the DKPro TC framework.
-  * the folder explore contains code used for the extraction of data-driven features from the German Tiger corpus. It makes use of DKPro Core.
+  * the folder experiment contains the classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
+  * the folder explore contains code used for the extraction of data-driven features from the German Tiger corpus. It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/).
 
 
 ## Howto
