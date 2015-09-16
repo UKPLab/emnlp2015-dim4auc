@@ -39,6 +39,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
  * counts all non-open-class tokens
  * i.e. tokens not belonging to the word classes main, verb, noun (common noun and proper noun)
  * and adjective
+ * IMPORTANT: assumes the STTS Tagset as used by the TreeTagger for German
  *
  */
 public class FunctionWordCounter extends JCasAnnotator_ImplBase 
