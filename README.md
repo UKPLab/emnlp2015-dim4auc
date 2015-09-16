@@ -4,7 +4,7 @@ This repository contains the code used to perform the classification experiments
 
 Judith Eckle-Kohler, Roland Kluge and Iryna Gurevych. On the Role of Discourse Markers for Discriminating Claims and Premises in Argumentative Discourse. In: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 2249-2255, September 2015.
 
-For more information see also: https://www.ukp.tu-darmstadt.de/data/argumentation-mining/argument-annotated-news-articles/
+For more information about downloads see also: https://www.ukp.tu-darmstadt.de/data/argumentation-mining/argument-annotated-news-articles/
 
 ## Package structure
   * the package `experiment` contains the runnable classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
