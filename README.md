@@ -7,15 +7,14 @@ Judith Eckle-Kohler, Roland Kluge and Iryna Gurevych. On the Role of Discourse M
 For more information see also: https://www.ukp.tu-darmstadt.de/data/argumentation-mining/argument-annotated-news-articles/
 
 ## Package structure
-  * the folder `experiment` contains the classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
-  * the folder `explore` contains code used for the extraction of data-driven features from the [German Tiger corpus](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html). It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/). 
+  * the package `experiment` contains the runnable classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
+  * the package `explore` contains code used for the extraction of data-driven features from the [German Tiger corpus](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html). It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/). 
 
 
 ## Howto
   * to obtain the annotated dataset, please contact eckle-kohler@ukp.informatik.tu-darmstadt.de or the primary contact of the argumentation mining group at [UKP](https://www.ukp.tu-darmstadt.de/ukp-home/), see https://www.ukp.tu-darmstadt.de/research/research-areas/argumentation-mining
-  * you have to modify the paths to corpus data and results data according to your system and environment
-  * Please note that the Maven project (`pom.xml`) includes a dependency to the TreeTagger model which is used in the `explore` package which performs the extraction of data-driven features. You should either obtain the TreeTagger model and binaries (if you want to run the extraction pipelines) or remove the `explore` package, as well as the dependencies to the TreeTagger in `pom.xml` (to only run the classification experiments).
-  
+  * runnable classification experiments are in the package `experiment`; in order to run them, you have to modify the paths to corpus data and results data according to your system and environment
+ 
   
 
 
