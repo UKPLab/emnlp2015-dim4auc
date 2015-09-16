@@ -38,6 +38,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
  * @author Eckle-Kohler
  * counts occurrences of conjunctions and adverbs
  * which are the two prevalent word classes for discourse markers
+ * IMPORTANT: assumes the STTS Tagset as used by the TreeTagger for German
  *
  */
 public class DiscourseMarkerCounter extends JCasAnnotator_ImplBase 
