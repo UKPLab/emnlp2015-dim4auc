@@ -30,15 +30,14 @@ http://www.tu-darmstadt.de/
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
-For more information about downloads see also: https://www.ukp.tu-darmstadt.de/data/argumentation-mining/argument-annotated-news-articles/
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
 ## Project structure
 
  * the package `experiment` contains the runnable classification experiments which make use of the [DKPro TC](https://dkpro.github.io/dkpro-tc/) framework.
-  * the package `explore` contains code used for the extraction of data-driven features from the [German Tiger corpus](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html). It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/). 
-* to obtain the annotated dataset, please contact eckle-kohler@ukp.informatik.tu-darmstadt.de or the primary contact of the argumentation mining group at [UKP](https://www.ukp.tu-darmstadt.de/ukp-home/), see https://www.ukp.tu-darmstadt.de/research/research-areas/argumentation-mining
+ * the package `explore` contains code used for the extraction of data-driven features from the [German Tiger corpus](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html). It makes use of [DKPro Core](https://dkpro.github.io/dkpro-core/). 
+ * to obtain the annotated dataset, please contact eckle-kohler@ukp.informatik.tu-darmstadt.de or the primary contact of the argumentation mining group at [UKP](https://www.ukp.tu-darmstadt.de/ukp-home/), see https://www.ukp.tu-darmstadt.de/research/research-areas/argumentation-mining
 
 ## Requirements
 
